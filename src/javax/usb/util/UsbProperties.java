@@ -59,6 +59,8 @@ public interface UsbProperties
 
     /** Constant defining the resource name for the "jusb.properties" file */
     public static final String JUSB_PROPERTIES_FILENAME = "javax"+SLASH+"usb"+SLASH+"res"+SLASH+"jusb.properties";
+	/** JAR and ZIP files use forward-slash, not the system's file.separator */
+    public static final String JUSB_PROPERTIES_FILENAME2 = "javax/usb/res/jusb.properties";
 
     //-------------------------------------------------------------------------
     // Public constants (properties name)

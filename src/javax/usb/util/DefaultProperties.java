@@ -34,6 +34,9 @@ public class DefaultProperties extends Object implements UsbProperties
         lastException = null;
 
         usbProperties = findProperties( UsbProperties.JUSB_PROPERTIES_FILENAME );
+
+		if (!loaded)
+			usbProperties = findProperties( UsbProperties.JUSB_PROPERTIES_FILENAME2 );
     }
 
     /** @return true if the UsbProperties is loaded */
