@@ -120,12 +120,12 @@ public interface StandardOperations extends UsbOperations
 	/**
 	 * Allows the host to select an alternate setting for the specified interface
  	 * <p><i>See USB 1.1 spec section 9.4.9</i>
-	 * @param wIndex the interface number
 	 * @param wValue the alternate setting value
+	 * @param wIndex the interface number
 	 * @return a Request object that is created for this submission
 	 * @exception javax.usb.RequestException if something goes wrong submitting the request for this operation
 	 */
-	public Request setInterface( short wIndex, short wValue ) throws RequestException;
+	public Request setInterface( short wValue, short wIndex ) throws RequestException;
 
 	/**
 	 * Sets and then report an endpoint's synchronization frame
