@@ -9,9 +9,6 @@ package javax.usb.util;
  * http://oss.software.ibm.com/developerworks/opensource/license-cpl.html
  */
 
-import java.awt.*;
-import javax.swing.*;
-
 import javax.usb.*;
 
 /**
