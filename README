@@ -1,0 +1,38 @@
+
+The JCP web site for the JSR80 is: http://jcp.org/detail/80.jsp
+The web site for this project is: http://javax-usb.org
+
+****************
+* Requirements *
+****************
+
+Java Standard Edition version 1.2 or greater - Micro Edition has not been tested but may work
+ANT	 http://jakarta.apache.org/ant
+
+*********
+* Build *
+*********
+
+The ANT tool uses XML buildfiles to create the project.  Simply run ant
+in the toplevel directory to see a help listing of all targets.  The
+
+target "all" does everything.
+
+****************
+* Installation *
+****************
+
+Create the .class jarfile and put it into your CLASSPATH.
+
+********************
+* More Information *
+********************
+
+You can visit the project page for more information:
+http://javax-usb.org
+
+There is also a mailing list:
+javax-usb-devel@lists.sourceforge.net
+
+Archived at:
+http://sourceforge.net/mailarchive/forum.php?forum=javax-usb-devel
